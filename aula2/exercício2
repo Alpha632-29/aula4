@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .negrito{
+            font-weight:bold;
+            font-size: 40px;
+        }
+
+        .central{
+            text-align: center;
+        }
+        
+        .tamanho{
+            width: 130px; 
+            height: 15px;
+            text-align: right;
+        }
+        
+        table,td{
+        border: 1px, solid black;
+        border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1 span class = "negrito">Relatório 1</h1>
+    <table border="1">
+        <tr>  
+            <td style="width: 70px; height: 15px;">Nome</td>
+            <td style="width: 95px; height: 15px;">Sobrenome</td>
+            <td>Profissão</td>
+        </tr>
+        <tr>
+            <td >Pedro</td>
+            <td>Pereira</td>
+            <td>Engeinheiro civil</td>
+        </tr>
+        <tr>
+            <td>Arthur</td>
+            <td>Silva</td>
+            <td>Economista</td>
+        </tr>
+        <tr>
+            <td>Rosa</td>
+            <td>Andrade</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>Ferreira</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+    <br>
+
+    <h1 span class = "negrito">Relatório 2</h1>
+    <table border="1">
+        <tr>  
+            <td colspan="2" style="width: 130px; height: 15px;">Nome Completo</td>
+            
+            <td>Profissão</td>
+        </tr>
+        <tr>
+            <td >Pedro</td>
+            <td>Pereira</td>
+            <td>Engeinheiro civil</td>
+        </tr>
+        <tr>
+            <td>Arthur</td>
+            <td>Silva</td>
+            <td>Economista</td>
+        </tr>
+        <tr>
+            <td>Rosa</td>
+            <td>Andrade</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>Ferreira</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+    <br>
+    
+    <h1 span class = "negrito">Relatório 3</h1>
+    <table border="1">
+        <tr>  
+            <td colspan="2" style="width: 130px; height: 15px;">Nome Completo</td>
+            <td>Pedro</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Telefone</td>
+            <td colspan="2">(27)9999-2222</td>
+        </tr>
+        <tr>
+            <td colspan="2">(27)9999-1111</td>
+        </tr>
+    </table>
+    <br>
+
+    <h1 span class = "negrito">Relatório 4</h1>
+    <table border="1">
+        <tr>  
+            <td colspan="3" class="central"> Ano: 2023</td>
+        </tr>
+
+        <tr>
+            <td style = "width: 40px; height: 15px;"></td>
+            <td style = "width: 40px; height: 15px;"></td>
+            <td class = "tamanho">Valores venda</td>
+        </tr>
+        
+        <tr>
+            <td colspan = "2" rowspan="2">Descontos</td>
+            <td colspan="3" class="central">100.000</td>
+        </tr>
+        
+        <tr>
+            <td colspan="3" class="central">200.000</td>
+        </tr>
+
+         <tr>
+            <td></td>
+            <td></td>
+            <td class="central">300.000</td>
+        </tr>
+    </table>
+</body>
